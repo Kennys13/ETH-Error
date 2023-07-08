@@ -5,13 +5,13 @@ This smart contract demonstrates the usage of require(), assert(), and revert() 
 Requirements
 Solidity 0.8.0 or higher
 Functions
-requireExample(uint256 a, uint256 b)
+require_test(uint256 a, uint256 b)
 This function showcases the require() statement. It takes two unsigned integer parameters a and b and checks if a is greater than b. If the condition is not met, the function reverts the transaction and provides an error message.
 
-assertExample(uint256 a, uint256 b)
+assert_test(uint256 a, uint256 b)
 This function demonstrates the assert() statement. It takes two unsigned integer parameters a and b and verifies if a is greater than b. If the condition is false, the function triggers an exception and reverts the transaction.
 
-revertExample(uint256 a, uint256 b)
+revert_test(uint256 a, uint256 b)
 The revertExample function showcases the usage of the revert() statement. It takes two unsigned integer parameters a and b and manually checks if a is greater than b. If the condition is not met, the function explicitly reverts the transaction with a custom error message.
 
 Usage
